@@ -1,0 +1,183 @@
+@media only screen and (max-width: 435px){
+  .sideLayout_layout_container{
+    /* height: 100vh; */
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 0% 100%;
+    background-color: rgb(37,37,37);
+    color: #fff;
+    overflow: auto;
+    padding-bottom: 20px;
+  }
+  .sideLayout_nav_open{
+    position: sticky;
+    top: 0;
+    left:0;
+    background-color: rgb(57,57,57);
+    z-index: 2;
+    height: 100vh;
+    width: 50vw;
+    color: #fff;
+    transition: .3s all;
+    border-right: 0.5px solid rgb(163, 163, 163);
+  }
+  .sideLayout_nav_close{
+    width: 0px;
+    font-size: 0px;
+    visibility: hidden;
+  }
+  .sideLayout_icon_size{
+    height: 20px;
+    position: sticky;
+    top: 0;
+  }
+  .sideLayout_show_nav_close_btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+  }
+  .sideLayout_nav_ul{
+    padding: 0;
+  }
+  .sideLayout_nav_li{
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    list-style-type: none;
+  }
+  .sideLayout_nav_li_active{
+    /* background-color: rgba(255,255,255,0.2); */
+    background-color: rgba(255, 0, 0, 0.5);
+    /* padding: 10px 20px; */
+    cursor: pointer;
+  }
+  .sideLayout_nav_link{
+    text-decoration: none;
+    color: #fff;
+  }
+  .sideLayout_dropdown{
+    height: auto;
+    font-size: 16px;
+  }
+  .sideLayout_dropdown_btn{
+    background-color: transparent;
+    border-bottom: 1px solid rgb(37,37,37);
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+  }
+  .sideLayout_dropdown_ul{
+    height: auto;
+    margin: 10px 0;
+  }
+  .sideLayout_dropdown_li{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(37,37,37);
+    font-size: 16px;
+  }
+  .sideLayout_dropdown_li:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .sideLayout_dropdown_close{
+    display:none;
+  }
+  .children-container{
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+  }
+}
+@media only screen and (min-width: 769px){
+  .sideLayout_layout_container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    background-color: rgb(37,37,37);
+    color: #fff;
+    /* overflow: auto; */
+    /* padding-bottom: 20px; */
+  }
+  .sideLayout_nav_open{
+    position: sticky;
+    top: 0;
+    left:0;
+    background-color: rgb(37,37,37);
+    /* background-color: rgb(57,57,57); */
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    transition: .3s all;
+    border-right: 0.5px solid rgb(163, 163, 163);
+    text-align: center;
+  }
+  .sideLayout_icon_size{
+    height: 20px;
+    position: sticky;
+    top: 0;
+  }
+  .sideLayout_show_nav_close_btn{
+    display: none;
+  }
+  .sideLayout_nav_ul{
+    padding: 0;
+  }
+  .sideLayout_nav_li_logo{
+    /* border-bottom: 0.5px solid rgb(163, 163, 163); */
+    padding: 10px;
+    list-style-type: none;
+  }
+  .sideLayout_nav_li{
+    /* border-bottom: 0.5px solid rgb(163, 163, 163); */
+    padding: 10px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    list-style-type: none;
+  }
+  .sideLayout_nav_li_active{
+    background-color: rgb(57, 57, 57);
+    /* padding: 10px 20px; */
+    cursor: pointer;
+  }
+  .sideLayout_nav_li:hover{
+    /* background-color: rgba(255,255,255,0.2); */
+    background-color: rgb(57, 57, 57);
+    cursor: pointer;
+  }
+  .sideLayout_nav_link{
+    text-decoration: none;
+    color: #fff;
+  }
+  .sideLayout_dropdown{
+    height: auto;
+    font-size: 16px;
+  }
+  .sideLayout_dropdown_btn{
+    background-color: transparent;
+    border-bottom: 1px solid rgb(37,37,37);
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+  }
+  .sideLayout_dropdown_ul{
+    height: auto;
+    margin: 10px 0;
+  }
+  .sideLayout_dropdown_li{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(37,37,37);
+    font-size: 16px;
+  }
+  .sideLayout_dropdown_li:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .sideLayout_dropdown_close{
+    display:none;
+  }
+  .children-container{
+    overflow: auto;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+  }
+}

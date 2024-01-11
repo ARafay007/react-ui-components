@@ -1,0 +1,9 @@
+/* .col{
+  position: relative;
+  background-color: blanchedalmond;
+} */
+.col_center_child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
