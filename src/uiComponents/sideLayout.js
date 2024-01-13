@@ -99,7 +99,7 @@ export const SideLayout = ({children, navigationLinks, logo=null}) => {
         <ul className='sideLayout_nav_ul'>
           <li className='sideLayout_nav_li_logo'>
           {/* {logo && <img src='./logo192.png' height="100px" />} */}
-            <img src='./logo192.png' height="100px" />
+            <img src='./logo192.png' height="100px" alt='logo' />
           </li>
           {navList.length && renderLI() }
           <li className='sideLayout_nav_li'>Logout</li>
