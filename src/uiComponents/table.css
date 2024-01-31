@@ -1,0 +1,19 @@
+#table{
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+}
+.table_head{
+  /* background-image : linear-gradient(to right, rgb(3, 48, 78), rgba(3, 48, 78, 0.7)); */
+  background-image : linear-gradient(to right, rgb(37, 37, 37), rgba(137, 0, 0, 0.7));
+  color: white;
+}
+.col_heading{
+  text-align: left;
+}
+.col_data_row:nth-child(even){
+  background-color: rgba(210,210,210,0.3);
+}
+.col_data, .col_heading{
+  padding: 10px;
+}
