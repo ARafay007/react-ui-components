@@ -11,6 +11,7 @@ import { Message } from './message';
 import { Form } from './form';
 import { SideLayout } from './sideLayout';
 import { Container } from './container';
+import { Table } from './table';
 
 export {
   Layout,
@@ -26,4 +27,5 @@ export {
   Form,
   SideLayout,
   Container,
+  Table,
 };
